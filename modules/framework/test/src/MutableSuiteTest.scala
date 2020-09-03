@@ -8,7 +8,7 @@ import scala.concurrent.duration._
 
 abstract class MutableSuiteTest extends SimpleIOSuite {
 
-  test("23 is odd") {
+  pureTest("23 is odd") {
     expect(23 % 2 == 1)
   }
 
